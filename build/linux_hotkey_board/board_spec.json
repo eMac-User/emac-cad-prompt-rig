@@ -1,0 +1,1022 @@
+{
+  "schema_version": "linux-hotkey-board-spec-v1",
+  "compiled_at_utc": "2026-06-18T11:35:57+00:00",
+  "product": {
+    "name": "eMachination CAD Patent Prompt-Rig",
+    "folder_name": "eMachinationCADPatentPromptRig"
+  },
+  "source": {
+    "package_config_path": "package/board_package.ini",
+    "ahk_path": "src/eMachination_Coding_Prompt_Rig.ahk",
+    "prompts_index_path": "prompts/index.ini",
+    "settings_path": "config/settings.ini"
+  },
+  "paths": {
+    "prompt_root": "prompts",
+    "output_spec_path": "build/linux_hotkey_board/board_spec.json"
+  },
+  "model": {
+    "profiles": [
+      {
+        "id": "rough_in_part_development",
+        "name": "Rough-In Parts"
+      },
+      {
+        "id": "mechanical_drawing_cleanup",
+        "name": "Mechanical Drawing Cleanup"
+      },
+      {
+        "id": "cad_application_assist",
+        "name": "CAD Application Assist"
+      }
+    ],
+    "boards": [
+      {
+        "id": "primary",
+        "name": "Primary"
+      },
+      {
+        "id": "secondary",
+        "name": "Secondary"
+      },
+      {
+        "id": "tertiary",
+        "name": "Tertiary"
+      }
+    ],
+    "profile_count": 3,
+    "board_count": 3,
+    "prompts_per_board": 8,
+    "prompt_count": 72,
+    "expected_prompt_count": 72
+  },
+  "prompts": [
+    {
+      "section": "rough_in_part_development.primary.01",
+      "profile_id": "rough_in_part_development",
+      "board_id": "primary",
+      "slot": 1,
+      "label": "Clean Drawing (Dim)",
+      "path": "prompts/rough_in_part_development/primary/01_analyze_concept.md",
+      "body_sha256": "d3fa1640668856ae64c363c1d9541eb5af7a3ed43cf9614111d6a3a9df197526",
+      "size_bytes": 2477
+    },
+    {
+      "section": "rough_in_part_development.primary.02",
+      "profile_id": "rough_in_part_development",
+      "board_id": "primary",
+      "slot": 2,
+      "label": "Clean Drawing (Un-Dim)",
+      "path": "prompts/rough_in_part_development/primary/02_extract_geometry.md",
+      "body_sha256": "deb39c4980468143bdbaf17c026346e014f19b84effdc5ef979bd00f125e3d14",
+      "size_bytes": 2388
+    },
+    {
+      "section": "rough_in_part_development.primary.03",
+      "profile_id": "rough_in_part_development",
+      "board_id": "primary",
+      "slot": 3,
+      "label": "Extract Dimensions",
+      "path": "prompts/rough_in_part_development/primary/03_extract_dimensions.md",
+      "body_sha256": "198ee4f723a50d4d19ccdfba0a51c004883c32e5fc7d016dc593c20d7dfc06e7",
+      "size_bytes": 1880
+    },
+    {
+      "section": "rough_in_part_development.primary.04",
+      "profile_id": "rough_in_part_development",
+      "board_id": "primary",
+      "slot": 4,
+      "label": "Missing Dimensions",
+      "path": "prompts/rough_in_part_development/primary/04_missing_dimensions.md",
+      "body_sha256": "a8a55e88a3da697172eb61d37d124d0816d7cfd3b18ca1c38f325f0843cb2fcd",
+      "size_bytes": 1916
+    },
+    {
+      "section": "rough_in_part_development.primary.05",
+      "profile_id": "rough_in_part_development",
+      "board_id": "primary",
+      "slot": 5,
+      "label": "Likely Function",
+      "path": "prompts/rough_in_part_development/primary/05_likely_function.md",
+      "body_sha256": "6924d0b5fd13a8bcdab382e2fbaf1e19406aab8ccd36a7ce28a1f39079a431a0",
+      "size_bytes": 1874
+    },
+    {
+      "section": "rough_in_part_development.primary.06",
+      "profile_id": "rough_in_part_development",
+      "board_id": "primary",
+      "slot": 6,
+      "label": "Manufacturability",
+      "path": "prompts/rough_in_part_development/primary/06_manufacturability.md",
+      "body_sha256": "3fde2ad9b3bf678ee52d6ffb89b0910699df58bf2076af60fff9b01c37ee2358",
+      "size_bytes": 1868
+    },
+    {
+      "section": "rough_in_part_development.primary.07",
+      "profile_id": "rough_in_part_development",
+      "board_id": "primary",
+      "slot": 7,
+      "label": "Clarify Fast",
+      "path": "prompts/rough_in_part_development/primary/07_clarify_fast.md",
+      "body_sha256": "787aa7302bc94c2fca43066f8944d8bb31223357403d36c47ec39a8a5f29c6fe",
+      "size_bytes": 1838
+    },
+    {
+      "section": "rough_in_part_development.primary.08",
+      "profile_id": "rough_in_part_development",
+      "board_id": "primary",
+      "slot": 8,
+      "label": "Rough-In Summary",
+      "path": "prompts/rough_in_part_development/primary/08_rough_in_summary.md",
+      "body_sha256": "5e6bd72ad112b83ad0d9bee8b3c58b05dd9e96b798100304b37d6544b8f2a90a",
+      "size_bytes": 1870
+    },
+    {
+      "section": "rough_in_part_development.secondary.01",
+      "profile_id": "rough_in_part_development",
+      "board_id": "secondary",
+      "slot": 1,
+      "label": "Buildable Geometry",
+      "path": "prompts/rough_in_part_development/secondary/01_buildable_geometry.md",
+      "body_sha256": "0fa079913e26845e609789fddf82e3066fee0c6e41fcf1be40c62b6af13d37ad",
+      "size_bytes": 1899
+    },
+    {
+      "section": "rough_in_part_development.secondary.02",
+      "profile_id": "rough_in_part_development",
+      "board_id": "secondary",
+      "slot": 2,
+      "label": "Square Layout",
+      "path": "prompts/rough_in_part_development/secondary/02_square_layout.md",
+      "body_sha256": "dc5c90cb959a315323b1f85d395f1709bf848dc980d1b7486305f00ea9e659fb",
+      "size_bytes": 1855
+    },
+    {
+      "section": "rough_in_part_development.secondary.03",
+      "profile_id": "rough_in_part_development",
+      "board_id": "secondary",
+      "slot": 3,
+      "label": "Better Proportions",
+      "path": "prompts/rough_in_part_development/secondary/03_better_proportions.md",
+      "body_sha256": "824af08b1f336cc1cc11f53afa1265ef04ffaca83cf3c4db6032527b913ba7c1",
+      "size_bytes": 1849
+    },
+    {
+      "section": "rough_in_part_development.secondary.04",
+      "profile_id": "rough_in_part_development",
+      "board_id": "secondary",
+      "slot": 4,
+      "label": "Hole Slot Placement",
+      "path": "prompts/rough_in_part_development/secondary/04_hole_slot_placement.md",
+      "body_sha256": "1b44ac107a685503fc4a695501cc957b2dd009d2f92cce9779d6facd52c393f4",
+      "size_bytes": 1843
+    },
+    {
+      "section": "rough_in_part_development.secondary.05",
+      "profile_id": "rough_in_part_development",
+      "board_id": "secondary",
+      "slot": 5,
+      "label": "Fillet Radius Plan",
+      "path": "prompts/rough_in_part_development/secondary/05_fillet_radius_plan.md",
+      "body_sha256": "7d8f163d66ae204f4a6fd98bdc8e55824c88579635d017da79c854c12b43f6a9",
+      "size_bytes": 1843
+    },
+    {
+      "section": "rough_in_part_development.secondary.06",
+      "profile_id": "rough_in_part_development",
+      "board_id": "secondary",
+      "slot": 6,
+      "label": "Thickness Material",
+      "path": "prompts/rough_in_part_development/secondary/06_thickness_material.md",
+      "body_sha256": "3d84a3c6d21c559812d84fe03ab4e4c8d522dcad7edcea34e08a14cdb8250f2e",
+      "size_bytes": 1859
+    },
+    {
+      "section": "rough_in_part_development.secondary.07",
+      "profile_id": "rough_in_part_development",
+      "board_id": "secondary",
+      "slot": 7,
+      "label": "Weak Feature Review",
+      "path": "prompts/rough_in_part_development/secondary/07_weak_feature_review.md",
+      "body_sha256": "a2aae7c843d37f60f3f3bb8171d21e0348830b7158b109e759874ae517530e36",
+      "size_bytes": 1865
+    },
+    {
+      "section": "rough_in_part_development.secondary.08",
+      "profile_id": "rough_in_part_development",
+      "board_id": "secondary",
+      "slot": 8,
+      "label": "Improved Concept",
+      "path": "prompts/rough_in_part_development/secondary/08_improved_concept.md",
+      "body_sha256": "ef5bad2a466b19466e76c4c4053ded1d04a13e8e92a4e119f39f7d690814e1ca",
+      "size_bytes": 1865
+    },
+    {
+      "section": "rough_in_part_development.tertiary.01",
+      "profile_id": "rough_in_part_development",
+      "board_id": "tertiary",
+      "slot": 1,
+      "label": "CAD Features",
+      "path": "prompts/rough_in_part_development/tertiary/01_cad_features.md",
+      "body_sha256": "20047ae63bc3d07757607be410b322cd462d5136d2c4f01918f20698f3bae9fb",
+      "size_bytes": 1839
+    },
+    {
+      "section": "rough_in_part_development.tertiary.02",
+      "profile_id": "rough_in_part_development",
+      "board_id": "tertiary",
+      "slot": 2,
+      "label": "Base Body",
+      "path": "prompts/rough_in_part_development/tertiary/02_base_body.md",
+      "body_sha256": "cb62a7255e5fa788bf75cc24cf9972a09c4134a496196204894743a46855b271",
+      "size_bytes": 1829
+    },
+    {
+      "section": "rough_in_part_development.tertiary.03",
+      "profile_id": "rough_in_part_development",
+      "board_id": "tertiary",
+      "slot": 3,
+      "label": "Cuts Slots Pockets",
+      "path": "prompts/rough_in_part_development/tertiary/03_cuts_slots_pockets.md",
+      "body_sha256": "060cd23dddfa7018aeac832d9b3e3f790f95d1fb8670f016575b650859836c17",
+      "size_bytes": 1885
+    },
+    {
+      "section": "rough_in_part_development.tertiary.04",
+      "profile_id": "rough_in_part_development",
+      "board_id": "tertiary",
+      "slot": 4,
+      "label": "Holes Countersinks",
+      "path": "prompts/rough_in_part_development/tertiary/04_holes_countersinks.md",
+      "body_sha256": "9c955a359ffb77cafc2ae16ff8631e03db406ded4fdf2b187b2a9b5eed050fe4",
+      "size_bytes": 1903
+    },
+    {
+      "section": "rough_in_part_development.tertiary.05",
+      "profile_id": "rough_in_part_development",
+      "board_id": "tertiary",
+      "slot": 5,
+      "label": "Ribs Tabs Brackets",
+      "path": "prompts/rough_in_part_development/tertiary/05_ribs_tabs_brackets.md",
+      "body_sha256": "0e460449a0615f4a5cd6f8d42c04a2dddef15d5359f615326f628eb35d1fe689",
+      "size_bytes": 1877
+    },
+    {
+      "section": "rough_in_part_development.tertiary.06",
+      "profile_id": "rough_in_part_development",
+      "board_id": "tertiary",
+      "slot": 6,
+      "label": "Datum Strategy",
+      "path": "prompts/rough_in_part_development/tertiary/06_datum_strategy.md",
+      "body_sha256": "8f4c843a02fbfcd3ebc84fc50eb751f2be47d97fe37d12bf0fe28736885ddb5b",
+      "size_bytes": 1851
+    },
+    {
+      "section": "rough_in_part_development.tertiary.07",
+      "profile_id": "rough_in_part_development",
+      "board_id": "tertiary",
+      "slot": 7,
+      "label": "Feature Tree",
+      "path": "prompts/rough_in_part_development/tertiary/07_feature_tree.md",
+      "body_sha256": "172321063c389c29c65cf2dd605d4717af32ec5e821a6c07db8c58ce6ef4871e",
+      "size_bytes": 1837
+    },
+    {
+      "section": "rough_in_part_development.tertiary.08",
+      "profile_id": "rough_in_part_development",
+      "board_id": "tertiary",
+      "slot": 8,
+      "label": "Drafter Brief",
+      "path": "prompts/rough_in_part_development/tertiary/08_drafter_brief.md",
+      "body_sha256": "f11caf8d74c56aa020c2bd161f37712520cee5235763c2242e5ae8bd1f8a1578",
+      "size_bytes": 1831
+    },
+    {
+      "section": "mechanical_drawing_cleanup.primary.01",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "primary",
+      "slot": 1,
+      "label": "Clean Drawing",
+      "path": "prompts/mechanical_drawing_cleanup/primary/01_clean_drawing.md",
+      "body_sha256": "62bca92771655b4129fa11897ad0b87e107476227d5384393aebba7fd545bbcf",
+      "size_bytes": 2353
+    },
+    {
+      "section": "mechanical_drawing_cleanup.primary.02",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "primary",
+      "slot": 2,
+      "label": "Front View",
+      "path": "prompts/mechanical_drawing_cleanup/primary/02_front_view.md",
+      "body_sha256": "61645e329739d547b9787a31a5d29fb0b4097f78ad5122025709f44516656641",
+      "size_bytes": 1882
+    },
+    {
+      "section": "mechanical_drawing_cleanup.primary.03",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "primary",
+      "slot": 3,
+      "label": "Top Side Views",
+      "path": "prompts/mechanical_drawing_cleanup/primary/03_top_side_views.md",
+      "body_sha256": "192e8f5752671d7f70c86e345778fc979058f49cc111513cdd1591beebbb5896",
+      "size_bytes": 1832
+    },
+    {
+      "section": "mechanical_drawing_cleanup.primary.04",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "primary",
+      "slot": 4,
+      "label": "Detail View",
+      "path": "prompts/mechanical_drawing_cleanup/primary/04_detail_view.md",
+      "body_sha256": "dc59a45172ad86b449faedcad3106455d2e132ba94219e87368224c544d21043",
+      "size_bytes": 1841
+    },
+    {
+      "section": "mechanical_drawing_cleanup.primary.05",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "primary",
+      "slot": 5,
+      "label": "B/W Line Art",
+      "path": "prompts/mechanical_drawing_cleanup/primary/05_bw_line_art.md",
+      "body_sha256": "dc77ac2c14899b8598afb3a77a8020449ec67c8c80fd6738c7ccc6634e9c7997",
+      "size_bytes": 1854
+    },
+    {
+      "section": "mechanical_drawing_cleanup.primary.06",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "primary",
+      "slot": 6,
+      "label": "Patent Line Art",
+      "path": "prompts/mechanical_drawing_cleanup/primary/06_patent_line_art.md",
+      "body_sha256": "0569c8bcc10138db44125f2a451a1a64f960bfc23730debaef6df784f489c3a8",
+      "size_bytes": 1851
+    },
+    {
+      "section": "mechanical_drawing_cleanup.primary.07",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "primary",
+      "slot": 7,
+      "label": "CAD Trace Ref",
+      "path": "prompts/mechanical_drawing_cleanup/primary/07_cad_trace_ref.md",
+      "body_sha256": "c152d1367cf144e62196c23d4e3b3b2c198d1da548a04c5c7f90de9846bc6854",
+      "size_bytes": 1841
+    },
+    {
+      "section": "mechanical_drawing_cleanup.primary.08",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "primary",
+      "slot": 8,
+      "label": "Final Image Prompt",
+      "path": "prompts/mechanical_drawing_cleanup/primary/08_final_image_prompt.md",
+      "body_sha256": "f3d3ee1febf86dda09c73e4576e617aedd3a509651b3bd6044407883297961c0",
+      "size_bytes": 1874
+    },
+    {
+      "section": "mechanical_drawing_cleanup.secondary.01",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "secondary",
+      "slot": 1,
+      "label": "Normalize Dims",
+      "path": "prompts/mechanical_drawing_cleanup/secondary/01_normalize_dims.md",
+      "body_sha256": "75eefa6e788b0da28c7f00f6079314c44e00cef5569e06a915e59fc9a35ebeaf",
+      "size_bytes": 1860
+    },
+    {
+      "section": "mechanical_drawing_cleanup.secondary.02",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "secondary",
+      "slot": 2,
+      "label": "Dimension Table",
+      "path": "prompts/mechanical_drawing_cleanup/secondary/02_dimension_table.md",
+      "body_sha256": "f75098288c3d8409cc2cf036140a8e9cf0845cb0fe08ef10a26223f8bf33d131",
+      "size_bytes": 1807
+    },
+    {
+      "section": "mechanical_drawing_cleanup.secondary.03",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "secondary",
+      "slot": 3,
+      "label": "Dim Conflicts",
+      "path": "prompts/mechanical_drawing_cleanup/secondary/03_dim_conflicts.md",
+      "body_sha256": "c91e4cc7b7df2d6e568da67881d7db7a89db466b3e6747d06ba7c453729b7c0d",
+      "size_bytes": 1837
+    },
+    {
+      "section": "mechanical_drawing_cleanup.secondary.04",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "secondary",
+      "slot": 4,
+      "label": "Missing Callouts",
+      "path": "prompts/mechanical_drawing_cleanup/secondary/04_missing_callouts.md",
+      "body_sha256": "1b0d0ddba72a1ca0777dbfd880595a464e8f7e72c3f9630263abd24c0afcf18d",
+      "size_bytes": 1852
+    },
+    {
+      "section": "mechanical_drawing_cleanup.secondary.05",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "secondary",
+      "slot": 5,
+      "label": "Datum Edges",
+      "path": "prompts/mechanical_drawing_cleanup/secondary/05_datum_edges.md",
+      "body_sha256": "5bce191afee47dbd8b84108edc62837fa7848bc923807c557a612916936b18ae",
+      "size_bytes": 1819
+    },
+    {
+      "section": "mechanical_drawing_cleanup.secondary.06",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "secondary",
+      "slot": 6,
+      "label": "Hole Centers",
+      "path": "prompts/mechanical_drawing_cleanup/secondary/06_hole_centers.md",
+      "body_sha256": "2348b662bc1060716a250c703847d6eeb28975648e87de60f7ddc884818ac1e6",
+      "size_bytes": 1814
+    },
+    {
+      "section": "mechanical_drawing_cleanup.secondary.07",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "secondary",
+      "slot": 7,
+      "label": "Radii Fillets",
+      "path": "prompts/mechanical_drawing_cleanup/secondary/07_radii_fillets.md",
+      "body_sha256": "7fe9f15da7afc1337f2ffc3aa2c1e8e8e4332da387a8ee9e3c199db9121b6390",
+      "size_bytes": 1827
+    },
+    {
+      "section": "mechanical_drawing_cleanup.secondary.08",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "secondary",
+      "slot": 8,
+      "label": "Corrected Dim Plan",
+      "path": "prompts/mechanical_drawing_cleanup/secondary/08_corrected_dim_plan.md",
+      "body_sha256": "e3b2e465f0e9c8ea9a880ba0baedc42b3a59e53f90bbb243ac470326a6fa6fc6",
+      "size_bytes": 1828
+    },
+    {
+      "section": "mechanical_drawing_cleanup.tertiary.01",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "tertiary",
+      "slot": 1,
+      "label": "Crooked Lines",
+      "path": "prompts/mechanical_drawing_cleanup/tertiary/01_crooked_lines.md",
+      "body_sha256": "2072a0dac8b07fbcc348eed40182a6e56aefc8ff86f7a5003607260aecd7bf24",
+      "size_bytes": 1827
+    },
+    {
+      "section": "mechanical_drawing_cleanup.tertiary.02",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "tertiary",
+      "slot": 2,
+      "label": "Holes Slots",
+      "path": "prompts/mechanical_drawing_cleanup/tertiary/02_holes_slots.md",
+      "body_sha256": "5c9b745233accd4309ede3da89459d9178c39291c731719d81d7602269fd3bc7",
+      "size_bytes": 1819
+    },
+    {
+      "section": "mechanical_drawing_cleanup.tertiary.03",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "tertiary",
+      "slot": 3,
+      "label": "Over Dimensioned",
+      "path": "prompts/mechanical_drawing_cleanup/tertiary/03_over_dimensioned.md",
+      "body_sha256": "0d78b8fb3878b3b22de6881937ca793a3bcbb22c5207c8713b2814e80d9ad1f0",
+      "size_bytes": 1812
+    },
+    {
+      "section": "mechanical_drawing_cleanup.tertiary.04",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "tertiary",
+      "slot": 4,
+      "label": "Under Dimensioned",
+      "path": "prompts/mechanical_drawing_cleanup/tertiary/04_under_dimensioned.md",
+      "body_sha256": "dd66c29c60e8a691aa0be7fd3a47ac74adffe4b96028b9851639dfa625fbf2ed",
+      "size_bytes": 1815
+    },
+    {
+      "section": "mechanical_drawing_cleanup.tertiary.05",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "tertiary",
+      "slot": 5,
+      "label": "Silhouette Clarity",
+      "path": "prompts/mechanical_drawing_cleanup/tertiary/05_silhouette_clarity.md",
+      "body_sha256": "75b2f545bc4b3a36fd1986e093997a03412d59c4856d9c904a0068affd14ed60",
+      "size_bytes": 1826
+    },
+    {
+      "section": "mechanical_drawing_cleanup.tertiary.06",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "tertiary",
+      "slot": 6,
+      "label": "Line Labels",
+      "path": "prompts/mechanical_drawing_cleanup/tertiary/06_line_labels.md",
+      "body_sha256": "eb7e0564a688c64217bb2c3adc62c0f1c282be66163f8deb6d7bc1f8ba5cdd30",
+      "size_bytes": 1817
+    },
+    {
+      "section": "mechanical_drawing_cleanup.tertiary.07",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "tertiary",
+      "slot": 7,
+      "label": "CAD Feasibility",
+      "path": "prompts/mechanical_drawing_cleanup/tertiary/07_cad_feasibility.md",
+      "body_sha256": "ac6129ce4aa0dfee5f5ca44fc73f866942bb3485254d993b4d9657cc3b888a31",
+      "size_bytes": 1859
+    },
+    {
+      "section": "mechanical_drawing_cleanup.tertiary.08",
+      "profile_id": "mechanical_drawing_cleanup",
+      "board_id": "tertiary",
+      "slot": 8,
+      "label": "Cleanup Checklist",
+      "path": "prompts/mechanical_drawing_cleanup/tertiary/08_cleanup_checklist.md",
+      "body_sha256": "f7a21f9fc08bc36271ca3ee19ab3857866ff10d5681e5aa7dfaf9585a497980b",
+      "size_bytes": 1833
+    },
+    {
+      "section": "cad_application_assist.primary.01",
+      "profile_id": "cad_application_assist",
+      "board_id": "primary",
+      "slot": 1,
+      "label": "Fusion Model Steps",
+      "path": "prompts/cad_application_assist/primary/01_fusion_model_steps.md",
+      "body_sha256": "b418d7759c8a9c07eed3d38de9edd13c7f2a38b7d2e41a9937c0f9508df0501f",
+      "size_bytes": 1655
+    },
+    {
+      "section": "cad_application_assist.primary.02",
+      "profile_id": "cad_application_assist",
+      "board_id": "primary",
+      "slot": 2,
+      "label": "Fusion Constraints",
+      "path": "prompts/cad_application_assist/primary/02_fusion_constraints.md",
+      "body_sha256": "f5a9b8ed018baeeed7616f307e1a454b2e0d2a3094ac22bf4c7c919219dc54e4",
+      "size_bytes": 1645
+    },
+    {
+      "section": "cad_application_assist.primary.03",
+      "profile_id": "cad_application_assist",
+      "board_id": "primary",
+      "slot": 3,
+      "label": "Fusion Extrude Cut",
+      "path": "prompts/cad_application_assist/primary/03_fusion_extrude_cut.md",
+      "body_sha256": "732f379e215c079dbe1c7a4b601f78050fc634b24938599c266aeb6c9250ddda",
+      "size_bytes": 1651
+    },
+    {
+      "section": "cad_application_assist.primary.04",
+      "profile_id": "cad_application_assist",
+      "board_id": "primary",
+      "slot": 4,
+      "label": "Fusion Holes Fillets",
+      "path": "prompts/cad_application_assist/primary/04_fusion_holes_fillets.md",
+      "body_sha256": "63a7b378c7019ecb37f3c0d7fc37c8ec717dcfbb6687e6f0d1a0de6ca92c7500",
+      "size_bytes": 1669
+    },
+    {
+      "section": "cad_application_assist.primary.05",
+      "profile_id": "cad_application_assist",
+      "board_id": "primary",
+      "slot": 5,
+      "label": "Fusion Drawings",
+      "path": "prompts/cad_application_assist/primary/05_fusion_drawings.md",
+      "body_sha256": "b6ff037d412ba02c54decd074b69b0c0e01075fec883713381fb74d29b4a3962",
+      "size_bytes": 2064
+    },
+    {
+      "section": "cad_application_assist.primary.06",
+      "profile_id": "cad_application_assist",
+      "board_id": "primary",
+      "slot": 6,
+      "label": "Fusion Components",
+      "path": "prompts/cad_application_assist/primary/06_fusion_components.md",
+      "body_sha256": "ca672950322f123577909c8ec068aab8f4b842a4b58c6cba7298cf3a4e44a8dc",
+      "size_bytes": 1662
+    },
+    {
+      "section": "cad_application_assist.primary.07",
+      "profile_id": "cad_application_assist",
+      "board_id": "primary",
+      "slot": 7,
+      "label": "Fusion Troubleshoot",
+      "path": "prompts/cad_application_assist/primary/07_fusion_troubleshoot.md",
+      "body_sha256": "9a1ce481e1ec5f3ac932e0816934b50eb5f8ee6238d08e41e639ab7ba2c7c7a8",
+      "size_bytes": 1656
+    },
+    {
+      "section": "cad_application_assist.primary.08",
+      "profile_id": "cad_application_assist",
+      "board_id": "primary",
+      "slot": 8,
+      "label": "Fusion Handoff",
+      "path": "prompts/cad_application_assist/primary/08_fusion_handoff.md",
+      "body_sha256": "910e3149bb9b10a483e31ef45ad460c5ad9bf3d51f84547313b4b67e6e49ebdc",
+      "size_bytes": 1637
+    },
+    {
+      "section": "cad_application_assist.secondary.01",
+      "profile_id": "cad_application_assist",
+      "board_id": "secondary",
+      "slot": 1,
+      "label": "Inventor Part Steps",
+      "path": "prompts/cad_application_assist/secondary/01_inventor_part_steps.md",
+      "body_sha256": "e2509e2bc34a33ad891b73310e39b598567085a84ba3fc10be325650f8573a7d",
+      "size_bytes": 1656
+    },
+    {
+      "section": "cad_application_assist.secondary.02",
+      "profile_id": "cad_application_assist",
+      "board_id": "secondary",
+      "slot": 2,
+      "label": "Inventor Constraints",
+      "path": "prompts/cad_application_assist/secondary/02_inventor_constraints.md",
+      "body_sha256": "3676aca4c3fcb2071ad235e811334f7db3a15ba7a8771c805cf80ecbee506047",
+      "size_bytes": 1661
+    },
+    {
+      "section": "cad_application_assist.secondary.03",
+      "profile_id": "cad_application_assist",
+      "board_id": "secondary",
+      "slot": 3,
+      "label": "Inventor Features",
+      "path": "prompts/cad_application_assist/secondary/03_inventor_features.md",
+      "body_sha256": "c492278e327dbf6d6b7611e6df3153c83fa03cb305b05b208cf609a95c25b48e",
+      "size_bytes": 1682
+    },
+    {
+      "section": "cad_application_assist.secondary.04",
+      "profile_id": "cad_application_assist",
+      "board_id": "secondary",
+      "slot": 4,
+      "label": "Inventor Holes Fillets",
+      "path": "prompts/cad_application_assist/secondary/04_inventor_holes_fillets.md",
+      "body_sha256": "d932e34b3c15155d95f12067535943e7db1d661b9b208090afd61b4387af4aea",
+      "size_bytes": 1679
+    },
+    {
+      "section": "cad_application_assist.secondary.05",
+      "profile_id": "cad_application_assist",
+      "board_id": "secondary",
+      "slot": 5,
+      "label": "Inventor Drawing Sheet",
+      "path": "prompts/cad_application_assist/secondary/05_inventor_drawing_sheet.md",
+      "body_sha256": "e30be94e226bbfb05aa89e30d0ad0cbdd135a23bb5b488070fd61c75e4906248",
+      "size_bytes": 2095
+    },
+    {
+      "section": "cad_application_assist.secondary.06",
+      "profile_id": "cad_application_assist",
+      "board_id": "secondary",
+      "slot": 6,
+      "label": "Inventor Assembly BOM",
+      "path": "prompts/cad_application_assist/secondary/06_inventor_assembly_bom.md",
+      "body_sha256": "8f343a38c5fe9a433767e4baae25d06259cc6114fbee4e3731a466c70fdea447",
+      "size_bytes": 1670
+    },
+    {
+      "section": "cad_application_assist.secondary.07",
+      "profile_id": "cad_application_assist",
+      "board_id": "secondary",
+      "slot": 7,
+      "label": "Inventor Troubleshoot",
+      "path": "prompts/cad_application_assist/secondary/07_inventor_troubleshoot.md",
+      "body_sha256": "167b82991fccc5f094c8eb8460412fe6d55012460308cf6de666b4093ffd83d9",
+      "size_bytes": 1646
+    },
+    {
+      "section": "cad_application_assist.secondary.08",
+      "profile_id": "cad_application_assist",
+      "board_id": "secondary",
+      "slot": 8,
+      "label": "Inventor Handoff",
+      "path": "prompts/cad_application_assist/secondary/08_inventor_handoff.md",
+      "body_sha256": "c9711df1be4da829321c63837d8ee9be7d8931180113279c054dc1415cb4d0a9",
+      "size_bytes": 1649
+    },
+    {
+      "section": "cad_application_assist.tertiary.01",
+      "profile_id": "cad_application_assist",
+      "board_id": "tertiary",
+      "slot": 1,
+      "label": "SolidWorks Model",
+      "path": "prompts/cad_application_assist/tertiary/01_solidworks_model.md",
+      "body_sha256": "b881cfe5bf77a079ab8f30e1fa79616b2513732eb78a041613c534ffd2909142",
+      "size_bytes": 1639
+    },
+    {
+      "section": "cad_application_assist.tertiary.02",
+      "profile_id": "cad_application_assist",
+      "board_id": "tertiary",
+      "slot": 2,
+      "label": "SolidWorks Relations",
+      "path": "prompts/cad_application_assist/tertiary/02_solidworks_relations.md",
+      "body_sha256": "2bb335a146045b598d8106e8a535cc96f62858d614619e00666906881e78ca16",
+      "size_bytes": 1647
+    },
+    {
+      "section": "cad_application_assist.tertiary.03",
+      "profile_id": "cad_application_assist",
+      "board_id": "tertiary",
+      "slot": 3,
+      "label": "SolidWorks Feature Tree",
+      "path": "prompts/cad_application_assist/tertiary/03_solidworks_feature_tree.md",
+      "body_sha256": "03557e799d5774e80770c2f08936a52a0bef7cf1c86c501fbd1d7cffedc5ef78",
+      "size_bytes": 1656
+    },
+    {
+      "section": "cad_application_assist.tertiary.04",
+      "profile_id": "cad_application_assist",
+      "board_id": "tertiary",
+      "slot": 4,
+      "label": "SolidWorks Holes Fillets",
+      "path": "prompts/cad_application_assist/tertiary/04_solidworks_holes_fillets.md",
+      "body_sha256": "02797afcaff6e183235d45e3be8b8fd7d75e8968d37dccf4bce84e4865088a0e",
+      "size_bytes": 1677
+    },
+    {
+      "section": "cad_application_assist.tertiary.05",
+      "profile_id": "cad_application_assist",
+      "board_id": "tertiary",
+      "slot": 5,
+      "label": "SolidWorks Drawings",
+      "path": "prompts/cad_application_assist/tertiary/05_solidworks_drawings.md",
+      "body_sha256": "ac5ad158ccc0f67722d0903aa7fc3f9e26dde6fb5228b1b8ef1b3374873622d3",
+      "size_bytes": 2072
+    },
+    {
+      "section": "cad_application_assist.tertiary.06",
+      "profile_id": "cad_application_assist",
+      "board_id": "tertiary",
+      "slot": 6,
+      "label": "SolidWorks Assembly BOM",
+      "path": "prompts/cad_application_assist/tertiary/06_solidworks_assembly_bom.md",
+      "body_sha256": "fbd0d8b261e7bcbf5d6db9c184d77435c1ac3c98582ac4e469ee3ef9022104fc",
+      "size_bytes": 1662
+    },
+    {
+      "section": "cad_application_assist.tertiary.07",
+      "profile_id": "cad_application_assist",
+      "board_id": "tertiary",
+      "slot": 7,
+      "label": "SolidWorks Troubleshoot",
+      "path": "prompts/cad_application_assist/tertiary/07_solidworks_troubleshoot.md",
+      "body_sha256": "97693e7d908c02ea64fb7d9e01e9c2c5ee37dff06786e37031bfc0e1e337d1fc",
+      "size_bytes": 1644
+    },
+    {
+      "section": "cad_application_assist.tertiary.08",
+      "profile_id": "cad_application_assist",
+      "board_id": "tertiary",
+      "slot": 8,
+      "label": "SolidWorks Handoff",
+      "path": "prompts/cad_application_assist/tertiary/08_solidworks_handoff.md",
+      "body_sha256": "f11db232907fbfbd0382e0613f96360e8f682bc0f64b11e4a207a0c9721ad644",
+      "size_bytes": 1645
+    }
+  ],
+  "settings": {
+    "enable_global_chat_hotkeys": "1",
+    "enable_numpad_mode": "0",
+    "remember_numpad_mode": "0"
+  },
+  "hotkeys": {
+    "board_launchers_windows_equivalent": [
+      {
+        "windows_key": "ScrollLock",
+        "ahk_key": "SC046",
+        "action": "open_board",
+        "board_index": 1
+      },
+      {
+        "windows_key": "Shift+ScrollLock",
+        "ahk_key": "+SC046",
+        "action": "open_board",
+        "board_index": 3
+      }
+    ],
+    "board_close_exit_windows_equivalent": [
+      {
+        "windows_key": "Ctrl+ScrollLock",
+        "ahk_key": "^SC046",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "Ctrl+Alt+ScrollLock",
+        "ahk_key": "^!SC046",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "NumLock",
+        "ahk_key": "NumLock",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "Esc",
+        "ahk_key": "Esc",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "Numpad8",
+        "ahk_key": "Numpad8",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "Numpad8",
+        "ahk_key": "NumpadUp",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "Numpad9",
+        "ahk_key": "Numpad9",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "Numpad9",
+        "ahk_key": "NumpadPgUp",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "Numpad0",
+        "ahk_key": "Numpad0",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "Numpad0",
+        "ahk_key": "NumpadIns",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "Ctrl+Alt+Numpad0",
+        "ahk_key": "^!Numpad0",
+        "action": "close_board"
+      },
+      {
+        "windows_key": "Ctrl+Alt+Numpad0",
+        "ahk_key": "^!NumpadIns",
+        "action": "close_board"
+      }
+    ],
+    "global_chat_windows_equivalent": [
+      {
+        "windows_key": "Insert",
+        "ahk_key": "Insert",
+        "action": "send_text",
+        "text": "clear"
+      },
+      {
+        "windows_key": "PgUp",
+        "ahk_key": "PgUp",
+        "action": "send_text",
+        "text": "Ok, continue"
+      },
+      {
+        "windows_key": "Home",
+        "ahk_key": "Home",
+        "action": "send_text",
+        "text": "Checkpoint this. What is locked, what is open, and what is the next best step?"
+      },
+      {
+        "windows_key": "End",
+        "ahk_key": "End",
+        "action": "send_text",
+        "text": "Finalize this. Produce the clean final version now."
+      },
+      {
+        "windows_key": "PgDn",
+        "ahk_key": "PgDn",
+        "action": "send_text",
+        "text": "Next step only. Give me the next concrete action and stop."
+      }
+    ],
+    "numpad_windows_equivalent": [
+      {
+        "windows_key": "Numpad1",
+        "ahk_key": "Numpad1",
+        "action": "paste_prompt_slot",
+        "slot": 1
+      },
+      {
+        "windows_key": "Numpad1",
+        "ahk_key": "NumpadEnd",
+        "action": "paste_prompt_slot",
+        "slot": 1
+      },
+      {
+        "windows_key": "Numpad2",
+        "ahk_key": "Numpad2",
+        "action": "paste_prompt_slot",
+        "slot": 2
+      },
+      {
+        "windows_key": "Numpad2",
+        "ahk_key": "NumpadDown",
+        "action": "paste_prompt_slot",
+        "slot": 2
+      },
+      {
+        "windows_key": "Numpad3",
+        "ahk_key": "Numpad3",
+        "action": "paste_prompt_slot",
+        "slot": 3
+      },
+      {
+        "windows_key": "Numpad3",
+        "ahk_key": "NumpadPgDn",
+        "action": "paste_prompt_slot",
+        "slot": 3
+      },
+      {
+        "windows_key": "Numpad4",
+        "ahk_key": "Numpad4",
+        "action": "paste_prompt_slot",
+        "slot": 4
+      },
+      {
+        "windows_key": "Numpad4",
+        "ahk_key": "NumpadLeft",
+        "action": "paste_prompt_slot",
+        "slot": 4
+      },
+      {
+        "windows_key": "Numpad5",
+        "ahk_key": "Numpad5",
+        "action": "paste_prompt_slot",
+        "slot": 5
+      },
+      {
+        "windows_key": "Numpad5",
+        "ahk_key": "NumpadClear",
+        "action": "paste_prompt_slot",
+        "slot": 5
+      },
+      {
+        "windows_key": "Numpad6",
+        "ahk_key": "Numpad6",
+        "action": "paste_prompt_slot",
+        "slot": 6
+      },
+      {
+        "windows_key": "Numpad6",
+        "ahk_key": "NumpadRight",
+        "action": "paste_prompt_slot",
+        "slot": 6
+      },
+      {
+        "windows_key": "Numpad7",
+        "ahk_key": "Numpad7",
+        "action": "paste_prompt_slot",
+        "slot": 7
+      },
+      {
+        "windows_key": "Numpad7",
+        "ahk_key": "NumpadHome",
+        "action": "paste_prompt_slot",
+        "slot": 7
+      }
+    ],
+    "linux_fallbacks": [
+      {
+        "key": "Ctrl+Alt+Space",
+        "action": "open_board",
+        "board_index": 1
+      },
+      {
+        "key": "Ctrl+Alt+Page_Up",
+        "action": "open_board",
+        "board_index": 2
+      },
+      {
+        "key": "Ctrl+Alt+Page_Down",
+        "action": "open_board",
+        "board_index": 3
+      }
+    ],
+    "scroll_lock_warning": "ScrollLock is the Windows-equivalent launcher intent, but it is not reliable as the only Linux launcher hotkey. The runtime must report session/backend support and use configurable fallbacks where possible."
+  },
+  "prompt_forge": {
+    "local_only": true,
+    "ai_model_calls": false,
+    "copy_prompt_coach": true,
+    "prompt_a_visible_by_default": true,
+    "prompt_b_visible_by_default": false,
+    "add_prompt_b_reveals_prompt_b": true,
+    "merge_combine_auto_shows_prompt_b": true,
+    "close_resets_state": true,
+    "transformations": [
+      "Merge / Combine",
+      "Repair",
+      "Compress",
+      "Expand",
+      "Specialize",
+      "Convert to Implementation Prompt",
+      "Convert to Design-Doc Prompt",
+      "Convert to AI-CAD Prompt",
+      "Convert to Academic/Writing Prompt",
+      "Convert to Current-Session Instruction",
+      "Convert to New-Session Prompt"
+    ]
+  },
+  "linux_runtime": {
+    "global_hotkeys_experimental": true,
+    "typed_expansion_triggers_required": false,
+    "espanso_is_main_workflow": false
+  }
+}

@@ -1,0 +1,79 @@
+# eMachination CAD Prompt-Rig
+# AutoHotkey v2 / Windows portable source package
+# Local-first CAD/patent prompt board package
+
+# IDE/editor files
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Local runtime config
+.env
+.env.*
+config/local.*
+config/*.local.*
+
+# Local install/build/staging outputs
+dist/
+out/
+release/
+releases/
+staging/
+stage/
+tmp/
+temp/
+
+# Generated archives/packages
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Local screenshot/source artifacts
+screenshots-local/
+source-artifacts/
+local-artifacts/
+
+# Generated validation/repair reports
+validation-reports/
+repair-reports/
+*_validation_report.*
+*_repair_report.*
+
+# Backup folders/files
+backup/
+backups/
+quarantine/
+*.bak
+*.bak_*
+*.backup
+*.old
+*.orig
+
+# Logs
+*.log
+logs/
+
+# AutoHotkey generated/runtime artifacts
+*.exe
+*.ahk.tmp
+*.ahk.bak
+
+# Windows shortcut files
+*.lnk
+
+# Python caches and virtual environments
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local/generated source artifacts
+docs/assets/brand/9092402a-2f4e-4df2-85d0-54c1c717adc7.png
+
